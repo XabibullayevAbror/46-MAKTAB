@@ -1,0 +1,245 @@
+body{
+    background-color: #fff6e0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.site-header{
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 160px;
+    margin-right: 10px;
+}
+
+.logo h1{
+    font-size: 30px;
+    margin: 0;
+}
+
+.main-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav ul li{
+    margin-left: 100px;
+}
+
+.main-nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.main-nav ul li a:hover{
+    color: #ffdd57;
+}
+
+.school-info{
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px
+}
+
+.school-info h2{
+    color: #343a40;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-content{
+    flex: 1;
+}
+
+.image-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.school-image{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px;
+}
+
+.school-info .learn-more{
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.school-info .learn-more:hover{
+    background-color: #0056b3;
+}
+
+.schedule{
+    background-color: #e9ecef;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px;
+}
+
+.schedule h2{
+    color: #343a40;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.schedule-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.schedule-table th, .schedule-table td{
+    border: 1px solid #0056b3;
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #495057;
+}
+
+.schedule-table th{
+    background-color: #007bff;
+    color: #fff;
+}
+
+.schedule-table tr:nth-child(even){
+    background-color: #f8f9fa;
+}
+
+.games{
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px;
+}
+
+.games h2{
+    color: #343a40;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.games-list{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.game{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 10px;
+    text-align: center;
+    width: 30%;
+}
+
+.game-image{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.game h3{
+    color: #343a40;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.game p{
+    color: #6c757d;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.play-button{
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.play-button:hover{
+    background-color: #0056b3;
+}
+
+.kitchen{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.kitchen h2{
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.dish-item{
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    vertical-align: top;
+}
+
+.dish-item img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dish-item h3{
+    font-size: 22px;
+    color: #444;
+    margin-top: 10px;
+}
+
+.dish-item p{
+    font-size: 16px;
+    color: #666;
+    margin-top: 5px;
+    text-align: justify;
+}
